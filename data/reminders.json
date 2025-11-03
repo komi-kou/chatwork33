@@ -13,24 +13,5 @@
     },
     "enabled": true,
     "createdAt": "2025-11-03T02:25:29.468Z"
-  },
-  {
-    "id": "1762162932594",
-    "name": "フィラメント週次分析",
-    "apiToken": "10e7538af625f74890e0f0bc4747c976",
-    "roomId": 412659441,
-    "message": "テスト",
-    "scheduleType": "weekly",
-    "dayOfWeek": "1",
-    "dayOfMonth": "1",
-    "time": "09:00",
-    "schedule": {
-      "type": "weekly",
-      "time": "09:00",
-      "dayOfWeek": "1",
-      "dayOfMonth": "1"
-    },
-    "enabled": true,
-    "createdAt": "2025-11-03T09:42:12.594Z"
   }
 ]
