@@ -1,0 +1,8 @@
+{
+  "env": {
+    "CHATWORK_API_TOKEN": "@chatwork-api-token",
+    "GITHUB_TOKEN": "@github-token",
+    "GITHUB_OWNER": "@github-owner",
+    "GITHUB_REPO": "@github-repo"
+  }
+}
