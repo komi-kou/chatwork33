@@ -1,0 +1,18 @@
+name: フィラメント週次分析
+
+on:
+  schedule:
+    - cron: '00 0 * * 1'
+  workflow_dispatch:
+
+jobs:
+  send-reminder:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send Chatwork Message
+        env:
+          CHATWORK_API_TOKEN: ${{ secrets.CHATWORK_TOKEN_1762162932594 }}
+        run: |
+          curl -X POST https://api.chatwork.com/v2/rooms/412659441/messages \
+            -H "X-ChatWorkToken: $CHATWORK_API_TOKEN" \
+            -d "body=%E3%83%86%E3%82%B9%E3%83%88"
